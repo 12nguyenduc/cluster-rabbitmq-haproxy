@@ -47,7 +47,7 @@ services:
    - RABBITMQ_DEFAULT_PASS=admin
 
  haproxy:
-  image: haproxy-server:latest
+  image: haproxy
   container_name: haproxy
   hostname: haproxy
   ports:
